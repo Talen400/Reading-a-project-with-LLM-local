@@ -51,14 +51,3 @@ class GenerateOutput:
                 output_file.write(content + "\n")
         print(f"Output saved to '{self.output_filename}'.")
 
-"""
-Example to test:
-
-if __name__ == "__main__":
-    directory_path = "C:/Users/ricar/OneDrive/Desktop/readmeGenerator"
-    ignore_dirs_list = [".git", "__pycache__", ".venv"]
-    ignore_files_list = ["README.md", ".env"]  
-
-    generator = GenerateOutput(directory_path, ignore_dirs_list, ignore_files_list)
-    generator.save_to_file()
-"""

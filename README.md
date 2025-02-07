@@ -40,3 +40,6 @@ python main.py
 ## 📌 Additional Notes
 - Modify `.gitignore` as needed to include/exclude files.
 - Contributions and improvements are welcome!
+
+## 📜 License
+This project is licensed under [MIT License](LICENSE).
